@@ -1,0 +1,154 @@
+<style>
+body::after {
+  content: "";
+  background: url(https://1.bp.blogspot.com/-hn0CJgVhT9M/WcyqGB_7H8I/AAAAAAAAA3o/l8ZQeLFIiaAKkPr8GRMejC3v4YFBR06CACPcBGAYYCw/s1600/IMG-9.JPG);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+   #socialbutton {
+     position: fixed;
+     bottom: 0;
+     text-align: center;
+   }
+   #header {
+     background-color: gray center top no-repeat;
+     position: fixed;
+     top: 0;
+     z-index:1;
+
+   }
+   #aboutusbox {
+     position: fixed;
+     opacity: 0.65;
+     width: 700px;
+     text-opacity: 1.0, !important;
+     left: 31%;
+     bottom: 50%;
+     padding: 20px;
+
+   }
+   #slideshow {
+     width: 700px;
+     position: fixed;
+     height: 460px;
+     left: 31%;
+     bottom: 4%;
+     padding: 20px;
+      background-color: white;
+   }
+
+   .slider-item {
+    max-width: 700px;
+    max-height: 460px;
+   }
+
+
+
+</style>
+
+
+
+<div class="container">
+  <div id="header" class="ui dark grey five item inverted menu">
+    <a class="item" href="/">Home</a>
+    <a class="item active" href="/aboutus">About Us</a>
+    <a class="item" href="/menu">Menu</a>
+    <a class="item" href="/reservation">Reserve</a>
+    <a class="item" href="/order">Order Online</a>
+  </div>
+</div>
+
+
+
+<div class="ui two column centered grid">
+  <div class="column">
+    <div id="aboutusbox" class="ui card">
+      <div class="ui form">
+        <div class="field">
+          <label style="text-align: center;">
+            About Us
+          </label>
+          <textarea readonly="" style="height: 400px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sem dolor, pharetra non nisl in, luctus malesuada ligula. Nam accumsan erat eget ipsum efficitur, vel consectetur orci consectetur. Integer eget eros luctus, dictum nisl quis, molestie urna. Pellentesque sed justo erat. Cras pellentesque est et aliquet consectetur. Fusce lobortis lorem dolor, nec ornare augue vulputate ac. Quisque tortor orci, accumsan nec elit pulvinar, finibus tincidunt dui. Cras a lacus urna. Praesent nec est et dui interdum lacinia. Fusce nec est a nunc gravida convallis quis vitae enim. Maecenas vel mauris ultrices, finibus nulla eget, mattis felis. In imperdiet odio vel turpis placerat vulputate. Nulla urna eros, viverra nec sodales eget, interdum vel urna.
+
+            Nulla ac elit pretium, elementum enim vitae, iaculis arcu. Aliquam erat volutpat. Curabitur velit tortor, sodales at tempor eget, vehicula id justo. Morbi orci orci, egestas ut facilisis sed, pulvinar mattis elit. Donec purus justo, ullamcorper nec mauris eu, laoreet facilisis tortor. Aliquam egestas sapien id lorem sollicitudin ullamcorper. Pellentesque mollis pharetra odio ac faucibus. Suspendisse tempus porta erat, in aliquam felis vestibulum in.
+
+            Fusce in efficitur dui, in commodo elit. Mauris nibh libero, mollis et urna a, porttitor placerat est. Praesent rhoncus interdum sem id lobortis. Ut mollis ante ut metus ultrices varius. Quisque fringilla iaculis pretium. Aliquam blandit ultrices urna, eu vestibulum massa cursus a. Maecenas mauris urna, tempus non libero eu, viverra eleifend erat. Donec ac commodo sapien. Pellentesque pellentesque ligula quis odio consequat molestie. Vestibulum lacinia nunc non libero pharetra gravida.
+
+            In finibus iaculis sem ut congue. Aliquam id turpis viverra, venenatis augue sit amet, interdum dolor. Etiam vitae sodales justo, vitae commodo velit. Quisque at felis venenatis, pellentesque erat eget, congue augue. Suspendisse sed eros id ipsum tristique hendrerit ac nec augue. Sed sollicitudin mi lorem, a volutpat augue sagittis in. Nulla magna quam, scelerisque cursus ante vitae, sagittis malesuada nunc. Duis vitae velit non quam tempus commodo vel at odio.
+
+            Suspendisse nec nulla eu tortor ultrices varius in ut turpis. Suspendisse euismod ipsum dignissim enim finibus tempus. Suspendisse lobortis quis magna ac tempus. Curabitur sagittis bibendum commodo. Fusce nec dolor sit amet mi dignissim sodales quis ac ligula. Donec mauris sem, dictum at lectus ac, laoreet tristique quam. In porttitor urna non tempor tristique. Curabitur egestas sit amet sem nec dictum."
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div class="column" id="slideshow">
+      <%# <h1>asdasd</h1> %>
+      <div class="slider">
+        <div class="slider-item">
+          <img class="ui fluid image" src="https://m.media-amazon.com/images/M/MV5BZWIxYjU4NmItZWE4NC00ZDI1LWIxYzgtMDMwZTQ0OTBhYTI3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX477_CR0,0,477,268_AL_.jpg">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=2">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=3">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=4">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=5">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=6">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=7">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=8">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=9">
+        </div>
+        <div class="slider-item">
+          <img class="ui fluid image" src="http://placehold.it/350x100?text=10">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="ui grid">
+  <div class="five wide column"></div>
+  <div class="six wide column">
+    <div id="socialbutton">
+      <button class="ui facebook button">
+        <i class="facebook icon"></i>
+        Facebook
+      </button>
+      <button class="ui twitter button">
+        <i class="twitter icon"></i>
+        Twitter
+      </button>
+      <button class="ui google plus button">
+        <i class="google plus icon"></i>
+        Google Plus
+      </button>
+      <button class="ui linkedin button">
+        <i class="linkedin icon"></i>
+        LinkedIn
+      </button>
+      <button class="ui instagram button">
+        <i class="instagram icon"></i>
+        Instagram
+      </button>
+    </div>
+  </div>
+</div>

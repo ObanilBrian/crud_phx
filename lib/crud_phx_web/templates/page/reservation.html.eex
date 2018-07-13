@@ -1,0 +1,118 @@
+<style>
+body::after {
+  content: "";
+  background: url(https://1.bp.blogspot.com/-hn0CJgVhT9M/WcyqGB_7H8I/AAAAAAAAA3o/l8ZQeLFIiaAKkPr8GRMejC3v4YFBR06CACPcBGAYYCw/s1600/IMG-9.JPG);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+  #socialbutton2 {
+    position: fixed;
+    bottom: 0;
+    text-align: center !important;
+  }
+  #header2 {
+    background-color: gray;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+  }
+  #form2 {
+    position: fixed;
+    opacity: 0.65;
+    text-opacity: 1.0, !important;
+    width: 700px;
+    left: 31%;
+    bottom: 20%;
+    padding: 20px;
+   }
+</style>
+<div class="container">
+  <div id="header2" class="ui dark grey five item inverted menu">
+    <a class="item" href="/">Home</a>
+    <a class="item" href="/aboutus">About Us</a>
+    <a class="item" href="/menu">Menu</a>
+    <a class="item active" href="/reservation">Reserve</a>
+    <a class="item" href="/order">Order Online</a>
+  </div>
+</div>
+
+  <div id="form2" class="ui card">
+    <div class="ui form">
+
+      <div class="field">
+        <div class="field">
+          <label>Last name</label>
+          <input type="text" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="two fields">
+        <div class="field">
+          <label>Date of Reservation</label>
+          <input type="date" placeholder="mm/dd/yyyy">
+        </div>
+        <div class="field">
+          <label>Time of Reservation</label>
+          <input type="time" placeholder="HH/MM">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Number of People</label>
+        <input type="number" placeholder="Reservation for...">
+      </div>
+      <div class="two fields">
+        <div class="field">
+          <label>Email Address<label>
+              <input type="email" placeholder="Email Address">
+        </div>
+        <div class="field">
+          <label>Mobile Number</label>
+          <input type="cellnumber" placeholder="Mobile Number">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Additional Comments/Remarks</label>
+        <textarea style="margin-top: 10px; margin-bottom: 10px; height: 201px;"></textarea>
+      </div>
+      <button class="ui button">
+        Submit
+      </button>
+
+    </div>
+  </div>
+</div>
+
+<div class="ui grid">
+  <div class="five wide column"></div>
+  <div class="six wide column">
+    <div id="socialbutton2">
+      <button class="ui facebook button">
+        <i class="facebook icon"></i>
+        Facebook
+      </button>
+      <button class="ui twitter button">
+        <i class="twitter icon"></i>
+        Twitter
+      </button>
+      <button class="ui google plus button">
+        <i class="google plus icon"></i>
+        Google Plus
+      </button>
+      <button class="ui linkedin button">
+        <i class="linkedin icon"></i>
+        LinkedIn
+      </button>
+      <button class="ui instagram button">
+        <i class="instagram icon"></i>
+        Instagram
+      </button>
+    </div>
+  </div>
+</div>

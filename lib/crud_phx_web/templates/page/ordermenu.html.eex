@@ -1,0 +1,155 @@
+<style>
+body::after {
+  content: "";
+  background: url(https://1.bp.blogspot.com/-hn0CJgVhT9M/WcyqGB_7H8I/AAAAAAAAA3o/l8ZQeLFIiaAKkPr8GRMejC3v4YFBR06CACPcBGAYYCw/s1600/IMG-9.JPG);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+   #socialbutton {
+     position: fixed;
+     bottom: 0;
+     text-align: center;
+   }
+   #header {
+     background-color: gray;
+     position: fixed;
+     top: 0;
+      z-index: 1;
+   }
+   #backgroundorder {
+     background-color: white;
+     position: relative;
+     top: 100px;
+     padding: 15px;
+      padding-bottom: 25px;
+     border-radius: 5%;
+      opacity: 0.8;
+      z-index: ;
+    }
+</style>
+<div class="container">
+  <div id="header" class="ui dark grey five item inverted menu">
+    <a class="item" href="/">Home</a>
+    <a class="item" href="/aboutus">About Us</a>
+    <a class="item" href="/menu">Menu</a>
+    <a class="item" href="/reservation">Reserve</a>
+    <a class="item active" href="/order">Order Online</a>
+  </div>
+</div>
+<div class="ui two column centered grid">
+  <div class="column">
+    <div class="container" id="backgroundorder">
+      <div class="ui divided items">
+        <div class="item">
+          <div class="ui small image">
+            <img src="/images/wireframe/image.png">
+          </div>
+          <div class="middle aligned content">
+            <div class="header">
+             Smoked Bacon
+             <div class="meta">
+               <span class="price">PHP400 per 200g</span>
+            </div>
+            </div>
+            <div class="description">
+              <p>Cured for two weeks in salt,<br>
+                this applewood smoked bacon is to die for.
+              </p>
+            </div>
+            <div class="extra">
+              <div class="ui right floated button">
+                Add to cart
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui small image">
+            <img src="/images/wireframe/image.png">
+          </div>
+          <div class="middle aligned content">
+            <div class="header">
+              Smoked Longanisa
+              <div class="meta">
+                <span class="price">PHP200 for 5 pieces</span>
+            </div>
+            </div>
+            <div class="description">
+              <p>Smokes take on the popular local dish,<br>
+              smoked with Hickory and Mesquite, <br>
+              the strong smokey flavor pushes the dish to the next level.</p>
+            </div>
+            <div class="extra">
+              <div class="ui right floated button">
+               Add to cart
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui small image">
+            <img src="/images/wireframe/image.png">
+          </div>
+          <div class="middle aligned content">
+            <div class="header">
+              Lab-You-Oh Meathead Hotsauce
+              <div class="meta">
+                <span class="price">PHP200 for 150mL</span>
+              </div>
+            </div>
+            <div class="description">
+              <p>Meathead's first product in his hotsauce line,<br>
+              Lab-You-Oh uses labuyo chili peppers as its main ingredient.<br>
+              Fermented in salt before being spiced, this sauce is extremely tasty<br>
+              but still holds some heat.
+              </p>
+            </div>
+            <div class="extra">
+              <div class="ui right floated button">
+                Add to cart
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button onclick="location.href = '/order/details';" class="ui right floated right labeled icon button"
+        >Next Step
+        <i class="angle right icon"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="ui grid">
+  <div class="five wide column"></div>
+  <div class="six wide column">
+    <div id="socialbutton">
+      <button class="ui facebook button">
+        <i class="facebook icon"></i>
+        Facebook
+      </button>
+      <button class="ui twitter button">
+        <i class="twitter icon"></i>
+        Twitter
+      </button>
+      <button class="ui google plus button">
+        <i class="google plus icon"></i>
+        Google Plus
+      </button>
+      <button class="ui linkedin button">
+        <i class="linkedin icon"></i>
+        LinkedIn
+      </button>
+      <button class="ui instagram button">
+        <i class="instagram icon"></i>
+        Instagram
+      </button>
+    </div>
+  </div>
+</div>
